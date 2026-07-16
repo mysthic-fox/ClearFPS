@@ -1,0 +1,16 @@
+name: ClearFps
+version: 2.0.0
+main: br.com.serpensmc.clearfps.ClearFpsPlugin
+api-version: '1.21'
+author: SerpensMC
+commands:
+  fps:
+    description: Abre o painel avancado de otimizacao extrema do cliente SerpensMC.
+    aliases: [clearfps, lag]
+    permission: clearfps.use
+permissions:
+  clearfps.use:
+    default: true
+  clearfps.admin:
+    description: Imunidade a ser ocultado pelo modulo Ocultar Jogadores.
+    default: op
