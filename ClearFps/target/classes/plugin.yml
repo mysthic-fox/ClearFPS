@@ -1,9 +1,0 @@
-name: ClearFps
-version: 1.1.0
-main: br.com.serpensmc.clearfps.ClearFpsPlugin
-api-version: '1.21'
-author: Mysthic_FoxX
-commands:
-  fps:
-    description: Abre o painel avancado de otimizacao de renderizacao do cliente SerpensMC.
-    permission: clearfps.use
